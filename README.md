@@ -99,7 +99,7 @@ claude-session-manager --port 9000 --no-browser
 
 ### Screenshot
 
-_Add a screenshot here once you've tried it — it's a dark-themed two-panel UI with the session list on the left and conversation preview on the right._
+![Claude Session Manager](screenshot.png)
 
 ---
 
