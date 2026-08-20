@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-session-manager"
+version = "0.1.0"
+description = "A GUI tool to browse, preview, export, migrate, and delete Claude Code sessions across all projects."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["claude", "claude-code", "session", "manager", "gui"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/JmAN-2003/claude-session-manager"
+Repository = "https://github.com/JmAN-2003/claude-session-manager"
+
+[project.scripts]
+claude-session-manager = "claude_session_manager:main"
+
+[tool.setuptools]
+py-modules = ["claude_session_manager"]
